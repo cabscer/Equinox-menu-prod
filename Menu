@@ -66,7 +66,7 @@
 
     // Create the main header
     var mainHeader = document.createElement('h1');
-    mainHeader.innerText = 'Equinox-Hack Menu V3';
+    mainHeader.innerText = 'Equinox-Hack Menu V1';
     mainHeader.style.textAlign = 'center';
     mainHeader.style.color = '#333';
     mainHeader.style.fontSize = '42px'; // Slightly larger font size
@@ -124,7 +124,7 @@
     
     // Button 2: Change Name
     createDemoButton('Change Name', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Name%20And%20Nickname%20Changer%20Script";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/Name";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
