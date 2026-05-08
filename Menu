@@ -113,7 +113,7 @@
     
     // Button 1: Epics
     createDemoButton('Epics', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Mythical%20Epics%20Script";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/Get%20All%20Epics";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -124,7 +124,7 @@
     
     // Button 2: Change Name
     createDemoButton('Change Name', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/Name";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/set%20name";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -135,7 +135,7 @@
 
     // Button 3: Get All Pets 150
     createDemoButton('get all pets 150', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cabscer/refs/heads/main/Get%20all%20pets%20prodigy";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/get%20all%20pets";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -146,7 +146,7 @@
 
     // Button 4: Item Management
     createDemoButton('Item Management', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Item%20Management%20Script";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/item%20managment";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -157,7 +157,7 @@
 
     // Button 5: Basic Player Teleporter
     createDemoButton('Basic Player Teleporter', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/BASIC%20Player%20Teleporter%20Script";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/teleporter";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -188,7 +188,7 @@
     });
 
     createDemoButton('Item Selector', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Advanced%20Item%20Selector";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/item%20managment";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -201,7 +201,7 @@
 
     // Button 6.5: Set Gold
     createDemoButton('Set Gold', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Set%20Gold%20Script";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/set%20gold";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -213,7 +213,7 @@
     
     // Button 7: Set Tower
     createDemoButton('Set Tower', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Set%20Tower%20Level";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/dark%20tower";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -236,7 +236,7 @@
 
     // Button 9: Set Level
     createDemoButton('Set Level', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/Byrrrd/The-ultimate-prodigy-hacks/refs/heads/main/edit%20level.js";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/level";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -281,7 +281,7 @@
 
     // Button 12: Set Member Stars
     createDemoButton('Set Member Stars', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Set%20Member%20Stars";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/member%20stars";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -407,12 +407,12 @@
     createHeader('Socials');
     // Button 13: YouTube Channel
     createDemoButton('YouTube Channel', function() {
-        window.open('https://www.youtube.com/@CrackinPMG', '_blank');
+        window.open('https://www.youtube.com/@gorilla', '_blank');
     });
     
     // Button 14: Discord Server
     createDemoButton('Discord Server', function() {
-        window.open('https://discord.gg/KXDrcZQV6R', '_blank');
+        window.open('https://discord.com', '_blank');
     });
 
     // Open menu functionality
