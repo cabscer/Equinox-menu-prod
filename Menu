@@ -222,9 +222,9 @@
             .catch(error => console.error("Failed to load the script:", error));
     });
 
-    // Button 8: Temporary Membership
-    createDemoButton('Temporary Membership', function() { 
-        const scriptUrl = "https://raw.githubusercontent.com/Byrrrd/The-ultimate-prodigy-hacks/refs/heads/main/core%20membership.js";
+    // Button 8: Membership Editor
+    createDemoButton('Membership Editor', function() { 
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/member";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
