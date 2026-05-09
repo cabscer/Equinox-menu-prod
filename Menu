@@ -177,8 +177,8 @@
             .catch(error => console.error("Failed to load the script:", error));
     });
 
-    createDemoButton('Change Appearance', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Player%20Appearance%20UI";
+    createDemoButton('Treasure Plus Done', function() {
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/Treasure%20Plus%20done";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
