@@ -187,8 +187,8 @@
             .catch(error => console.error("Failed to load the script:", error));
     });
 
-    createDemoButton('Item Selector', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/item%20managment";
+    createDemoButton('Magic Coins visual', function() {
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/magi%20coin";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
