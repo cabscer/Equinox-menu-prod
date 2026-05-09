@@ -187,7 +187,7 @@
             .catch(error => console.error("Failed to load the script:", error));
     });
 
-    createDemoButton('Magic Coins visual', function() {
+    createDemoButton('Magic Coins not working', function() {
         const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prod-saves/refs/heads/main/magi%20coin";
         fetch(scriptUrl)
             .then(response => response.text())
